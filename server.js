@@ -11,11 +11,11 @@ app.use(bodyParser.json());
 
 // PostgreSQL database connection configuration
 const connection = new Client({
-  host: "dpg-cn01n9md3nmc73897nj0-a",
+  host: "dpg-cn0jvqgcmk4c73f672h0-a.singapore-postgres.render.com",
   port: 5432,
-  database: "studentdb_t12s",
-  user: "studentdb_t12s_user",
-  password: "MPpXWaKJbv94nZdFwKcDWItYBp3mXT3n",
+  database: "postgres_zkf4",
+  user: "postgres_zkf4_user",
+  password: "IUY6U009vzf44lhhzJl04JQAdTzgmMka",
 });
 
 // Connect to PostgreSQL database
