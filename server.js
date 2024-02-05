@@ -16,6 +16,7 @@ const connection = new Client({
   database: "postgres_zkf4",
   user: "postgres_zkf4_user",
   password: "IUY6U009vzf44lhhzJl04JQAdTzgmMka",
+  ssl: true,
 });
 
 // Connect to PostgreSQL database
