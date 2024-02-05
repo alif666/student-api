@@ -2,10 +2,11 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const { Client } = require("pg");
+var cors = require("cors");
 
 // Create an Express application
 const app = express();
-
+app.use(cors());
 // Set up middleware to parse JSON requests
 app.use(bodyParser.json());
 
